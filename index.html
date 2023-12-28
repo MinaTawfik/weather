@@ -2,11 +2,43 @@
   <head>
     <title></title>
     <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
-    
+    <div class="container d-flex justify-content-center flex-wrap">
+      <div class="row mt-5 w-100">
+        <div class="col">
+          <h1 class="text-center">Weather</h1>
+        </div>
+      </div>
+      <div class="row mt-5 w-50">
+        <div class="col">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control rounded-1" id="location" placeholder="Find your location" aria-label="Find your location" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-dark ms-2 findBtn" type="button">Find</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row w-100">
+        <div id="current">
+          <div class="col">
+            <div class="d-flex justify-content-center flex-wrap" id="card1">
+              <h4 class="w-100 text-center">Mina</h4>
+              <h4 class="w-100 text-center">Mina</h4>
+            </div>
+          </div>
+        </div>
+        <div class="days">
+
+        </div>
+      </div>
+    </div>
     <script src="bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
     <script src="API.js"></script>
