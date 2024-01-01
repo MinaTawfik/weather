@@ -8,7 +8,19 @@ body{
     background-size: cover;
 }
 
-h1{
+h1, h2, h4, p{
     font-family: 'Pacifico', cursive;
-    font-size: 72px;
+}
+
+.weather-icon{
+    width: 63px;
+    height: 63px;
+}
+
+p{
+    font-size: 24px;
+}
+
+#card1{
+    background-color: rgba(255, 255, 255, 0.5);
 }
